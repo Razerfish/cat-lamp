@@ -1,4 +1,4 @@
-# ble-cat-lamp
+# BLE Cat Lamp
 The code, parts and schematics to create your own Bluetooth LE controlled RGBW cat lamp! (Cat part not included)
 
 ## Parts
