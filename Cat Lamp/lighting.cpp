@@ -17,6 +17,26 @@ uint32_t colorDimmable(uint8_t r, uint8_t g, uint8_t b, uint8_t w, uint8_t brigh
 }
 
 
+uint32_t colorDimmable(uint32_t color, uint8_t brightness)
+{
+	float ratio = brightness / 255.0f;
+
+	uint8_t r, g, b, w;
+
+	w = color >> 24;
+	r = color >> 16;
+	g = color >> 8;
+	b = color;
+
+	w *= ratio;
+	r *= ratio;
+	g *= ratio;
+	b *= ratio;
+
+	return ((uint32_t)w << 24) | ((uint32_t)r << 16) | ((uint32_t)g << 8) | b;
+}
+
+
 uint32_t rainbowGradient(uint16_t pos, uint16_t length, uint8_t brightness)
 {
 	float ratio = float(pos) / float(length);
