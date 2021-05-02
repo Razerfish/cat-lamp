@@ -3,26 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AUnit Tests", "AUnit Tests\AUnit Tests.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "Main\Main.vcxproj", "{FFC73955-161A-4623-9172-9A3F9796A2EF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cat Lamp", "Cat Lamp\Cat Lamp.vcxitems", "{FD1812B2-9964-466D-A922-6CEED39BAF3D}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Cat Lamp\Cat Lamp.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
-		Cat Lamp\Cat Lamp.vcxitems*{fd1812b2-9964-466d-a922-6ceed39baf3d}*SharedItemsImports = 9
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
-		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
 		{FFC73955-161A-4623-9172-9A3F9796A2EF}.Debug|x86.ActiveCfg = Debug|Win32
 		{FFC73955-161A-4623-9172-9A3F9796A2EF}.Debug|x86.Build.0 = Debug|Win32
 		{FFC73955-161A-4623-9172-9A3F9796A2EF}.Release|x86.ActiveCfg = Release|Win32

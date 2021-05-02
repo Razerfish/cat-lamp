@@ -1,7 +1,7 @@
 // lighting.h
 
-#ifndef _lighting_h
-#define _lighting_h
+#ifndef LIGHTING_H
+#define LIGHTING_H
 
 #if defined(ARDUINO) && ARDUINO >= 100
 	#include "arduino.h"
