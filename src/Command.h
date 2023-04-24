@@ -5,8 +5,6 @@
 
 #include "Utils.h"
 
-enum class PacketType { Color = 43, Brightness = 56, White = 57, Rainbow = 52, Pattern = 50, Incomplete = 49 };
-
 class Command
 {
     private:
