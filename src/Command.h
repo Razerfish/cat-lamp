@@ -13,7 +13,8 @@ class Command
         PacketType type;
 
     public:
-        Command(PacketType type, uint8_t data[], size_t length);
+        Command(PacketType type, uint8_t data[], size_t length);    
+        Command(PacketType type, size_t length);
         ~Command();
         uint8_t& operator[](int index);
 };

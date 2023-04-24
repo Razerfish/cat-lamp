@@ -10,6 +10,15 @@ Command::Command(PacketType type, uint8_t data[], size_t length)
 }
 
 
+Command::Command(PacketType type, size_t length)
+{
+    this->type = type;
+    this->length = length;
+
+    data = new uint8_t[length];
+}
+
+
 Command::~Command()
 {
     delete[] data;
