@@ -1,7 +1,8 @@
 #include "Command.h"
 
-Command::Command(uint8_t data[], size_t length)
+Command::Command(PacketType type, uint8_t data[], size_t length)
 {
+    this->type = type;
     this->length = length;
     this->data = new uint8_t[length];
 

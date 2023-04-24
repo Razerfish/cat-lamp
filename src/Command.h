@@ -5,7 +5,7 @@
 
 #include "Utils.h"
 
-enum class PacketType { Color = 43, Brightness = 56, White = 57, Rainbow = 52, Pattern = 50 };
+enum class PacketType { Color = 43, Brightness = 56, White = 57, Rainbow = 52, Pattern = 50, Incomplete = 49 };
 
 class Command
 {
@@ -15,7 +15,7 @@ class Command
         PacketType type;
 
     public:
-        Command(uint8_t data[], size_t length);
+        Command(PacketType type, uint8_t data[], size_t length);
         ~Command();
         uint8_t& operator[](int index);
 };
